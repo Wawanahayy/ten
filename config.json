@@ -1,4 +1,19 @@
-[
-  { "email": "user1@example.com", "password": "password1" },
-  { "email": "user2@example.com", "password": "password2" }
-]
+{
+  "accounts": [
+    {
+      "email": "youe_email@gmail.com",
+      "password": "kata_sandi_akun_1",
+      "proxy": {
+        "host": "proxy_host_1",
+        "port": 8080,
+        "username": "user1",
+        "password": "pass1"
+      }
+    },
+    {
+      "email": "your_email@gmail.com",
+      "password": "kata_sandi_akun_2",
+      "proxy": null
+    }
+  ]
+}
